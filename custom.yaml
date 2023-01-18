@@ -1,0 +1,11 @@
+---
+namespace: wp1
+
+secretGenerator:
+- name: mysql-pass
+  literals:
+    - password=111111
+
+resources:
+  - mysql-deployment.yaml
+  - wordpress-deployment.yaml
